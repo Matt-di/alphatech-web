@@ -15,7 +15,7 @@ export const config = {
   services: [
     {
       id: "software-dev",
-      title: "Enterprise Software Solutions",
+      title: "Software Solutions",
       shortDesc: "Custom software tailored to your specific business architecture.",
       fullDesc: "We specialize in developing robust enterprise applications, from scalable cloud platforms to high-performance local systems. Our team uses the latest tech stacks to ensure your business stays ahead of the curve.",
       icon: "Code2",
@@ -53,32 +53,32 @@ export const config = {
   projects: [
     {
       id: 1,
-      title: "National Transit Hub",
+      title: "eTicket System",
       category: "Transport",
       image: "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&q=80&w=800",
     },
     {
       id: 2,
-      title: "SecurePay Telecom",
+      title: "Telecom SIM/Recharge Services",
       category: "Fintech/Telecom",
       image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&q=80&w=800",
     },
     {
       id: 3,
-      title: "Ethio-Cloud ERP",
-      category: "Software",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800",
+      title: "Custom Software Solutions",
+      category: "Software Development",
+      image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&q=80&w=800",
     }
   ],
   contact: {
-    email: "info@alphatech-ethiopia.com",
-    phone: "+251 911 223 344",
-    address: "Bole Road, Mega Building, 5th Floor, Addis Ababa, Ethiopia",
-    mapUrl: "https://maps.google.com/?q=Bole+Road+Addis+Ababa"
+    email: "info@alphatechplc.com",
+    phone: "+251922240086",
+    address: "Addis Ababa, Ethiopia",
+    mapUrl: "https://maps.google.com/?q=Addis+Ababa"
   },
   socials: {
-    linkedin: "https://linkedin.com/company/alphatech",
-    twitter: "https://twitter.com/alphatech",
-    facebook: "https://facebook.com/alphatech"
+    linkedin: "https://linkedin.com/company/alphatecplc",
+    twitter: "https://twitter.com/alphatechplc",
+    facebook: "https://facebook.com/alphatechplc"
   }
 };
