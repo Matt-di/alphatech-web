@@ -60,9 +60,9 @@ const SEO = ({
       contactType: 'Customer Service'
     },
     sameAs: [
-      config.social.facebook,
-      config.social.twitter,
-      config.social.linkedin
+      config.socials.facebook,
+      config.socials.twitter,
+      config.socials.linkedin
     ].filter(Boolean)
   };
 
@@ -130,8 +130,8 @@ const SEO = ({
       <meta name="twitter:title" content={seoTitle} />
       <meta name="twitter:description" content={seoDescription} />
       <meta name="twitter:image" content={seoImage} />
-      {config.social?.twitter && (
-        <meta name="twitter:site" content={config.social.twitter} />
+      {config.socials?.twitter && (
+        <meta name="twitter:site" content={config.socials.twitter} />
       )}
       
       {/* Additional Meta Tags */}
