@@ -2,10 +2,23 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Mail, Phone, MapPin, Send } from 'lucide-react';
 import { config } from '../config';
+import SEO from '../components/SEO';
 
 const Contact = () => {
   return (
     <div className="contact-page">
+      <SEO 
+        title="Contact Us"
+        description="Get in touch with Alphatech General Trading PLC. Contact us for software development, telecom solutions, and enterprise technology services in Addis Ababa, Ethiopia."
+        keywords={[
+          'contact Alphatech',
+          'Alphatech Ethiopia contact',
+          'technology company Addis Ababa',
+          'software development inquiry',
+          'enterprise solutions contact',
+          'business consultation Ethiopia'
+        ]}
+      />
       <section className="page-header bg-gradient">
         <div className="container">
           <motion.h1 

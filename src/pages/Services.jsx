@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Code2, PhoneCall, Ticket, Globe, CheckCircle2 } from 'lucide-react';
 import { config } from '../config';
+import SEO from '../components/SEO';
 
 const icons = {
   Code2: <Code2 size={40} />,
@@ -13,6 +14,19 @@ const icons = {
 const Services = () => {
   return (
     <div className="services-page">
+      <SEO 
+        title="Our Services"
+        description="Explore our comprehensive enterprise solutions including custom software development, telecom operations, transport ticketing systems, and technology trading services in Ethiopia."
+        keywords={[
+          'custom software development',
+          'telecom operations',
+          'transport ticketing',
+          'technology trading',
+          'enterprise solutions Ethiopia',
+          'IT consulting',
+          'system integration'
+        ]}
+      />
       <section className="page-header bg-gradient">
         <div className="container">
           <motion.h1 

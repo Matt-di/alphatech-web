@@ -1,10 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { config } from '../config';
+import SEO from '../components/SEO';
 
 const PrivacyPolicy = () => {
   return (
     <div className="legal-page">
+      <SEO 
+        title="Privacy Policy"
+        description="Read Alphatech General Trading PLC's privacy policy to understand how we collect, use, and protect your personal information."
+        noindex={true}
+      />
       <section className="page-header bg-gradient">
         <div className="container">
           <h1>Privacy <span className="text-secondary">Policy</span></h1>

@@ -2,10 +2,23 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Target, Eye, Users, ShieldCheck } from 'lucide-react';
 import { config } from '../config';
+import SEO from '../components/SEO';
 
 const About = () => {
   return (
     <div className="about-page">
+      <SEO 
+        title="About Us"
+        description="Learn about Alphatech General Trading PLC - a leading technology and trading company in Ethiopia. Discover our mission, vision, and commitment to excellence in enterprise solutions."
+        keywords={[
+          'about Alphatech',
+          'technology company Ethiopia',
+          'enterprise solutions provider',
+          'Ethiopian tech company',
+          'company mission vision',
+          'technology trading Ethiopia'
+        ]}
+      />
       <section className="page-header bg-gradient">
         <div className="container">
           <motion.h1 

@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { ArrowRight, Code2, PhoneCall, Ticket, Globe, CheckCircle2 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { config } from '../config';
+import SEO from '../components/SEO';
 import heroBg from '../assets/hero-bg.png';
 
 const icons = {
@@ -15,6 +16,18 @@ const icons = {
 const Home = () => {
   return (
     <div className="home-page">
+      <SEO 
+        title="Home"
+        description="Alphatech General Trading PLC provides cutting-edge software development, telecom operations, and transport ticket systems in Ethiopia. Transform your business with our enterprise solutions."
+        keywords={[
+          'software development Ethiopia',
+          'telecom solutions',
+          'transport systems',
+          'enterprise software',
+          'Addis Ababa technology',
+          'business automation'
+        ]}
+      />
       {/* Hero Section */}
       <section className="hero-v2" style={{ backgroundImage: `url(${heroBg})` }}>
         <div className="hero-overlay"></div>
