@@ -45,11 +45,11 @@ const Home = () => {
         <div className="container">
           <div className="stats-grid">
             <div className="stat-item">
-              <span className="stat-number">10+</span>
+              <span className="stat-number">5+</span>
               <span className="stat-label">Years of Excellence</span>
             </div>
             <div className="stat-item">
-              <span className="stat-number">50+</span>
+              <span className="stat-number">10+</span>
               <span className="stat-label">Enterprise Projects</span>
             </div>
             <div className="stat-item">
